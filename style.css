@@ -1,0 +1,278 @@
+body {
+    margin:0;
+    background-color:#FEFAE0 ;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:#CCD5AE;
+    text-align: center;
+    box-shadow: 0px 4px 3px #B99470;
+    padding-bottom: 10px;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-size: larger;
+    font-style: normal;
+    color:#3c2e20;
+}
+
+.name {
+    border-width: 100px;
+    background-color: #A6B37D;
+    border: 3px;
+    border-color: #909b6c;
+    border-radius: 12px;
+    width: 100px;
+}
+.lst{
+    border-width: 100px;
+    background-color: #A6B37D;
+    border: 3px;
+    border-color: #909b6c;
+    border-radius: 12px;
+    width: 100px;
+}
+
+.link{
+    text-decoration: none;
+    color: #3c2e20;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: #51361ab9;
+    width: 100px ;
+}
+
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color:#CCD5AE;
+    text-align: center;
+    box-shadow: 0px 4px 3px #B99470;
+    padding-bottom: 6px;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-size: larger;
+    font-style: normal;
+    color:#3c2e20;
+}
+
+
+.one-col{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+    margin: 1rem;
+    color: #3c2e20;
+    background-color: rgb(237, 241, 214);
+    text-align: center;
+    box-shadow: 0 4px 10px #A6B37D;
+
+}
+.form-sizing{
+    width: 1.30rem;
+    font-family: "Cairo Play", system-ui;
+font-optical-sizing: auto;
+font-weight: 800;
+font-style: normal;
+font-variation-settings:
+  "slnt"
+}
+
+#submit{
+    color: #3c2e20;
+    background-color: #A6B37D ;
+    justify-self: center;
+    border-radius: 20px;
+}
+#submit:hover{
+    color: #51361ab9;
+}
+
+input{
+    cursor: pointer;
+    color: #d17112;
+    border-color: #A6B37D;
+    box-shadow: 0px 1px 1px #B99470;
+    padding-bottom: 6px;
+    border-width: 2px;
+    border-radius: 10%;
+}
+
+textarea{
+    cursor: pointer;
+    color: #d17112;
+    border-color: #A6B37D;
+    box-shadow: 0px 1px 1px #B99470;
+    padding-bottom: 6px;
+    border-width: 2px;
+    border-radius: 10%;
+}
+
+.address{
+text-align: center;
+color: #919c6c;
+font-family: "Cairo Play", system-ui;
+font-optical-sizing: auto;
+font-weight: 800;
+font-style: normal;
+font-variation-settings:
+  "slnt" 0;
+}
+
+hr{
+    border: 4px solid #B99470;
+    border-radius: 5px;
+}
+h2{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    color: #3c2e20;
+}
+
+.splash img{
+    border: 0.20rem solid #919c6c;
+    background-color: #929d6f;
+    border-radius: 80%;
+    box-shadow: 0 4px 10px #A6B37D;
+    padding: 40px 20px;
+    width: 200px;
+}
+.splash{
+    background-color: rgb(237, 241, 214);
+    text-align: center;
+    box-shadow: 0 4px 10px #A6B37D;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-size: larger;
+    font-style: normal;
+    color:#3c2e20;
+}
+.main-links{
+    text-decoration: none;
+    color: #e59546;
+}
+.main-links:hover{
+    padding-bottom: 4x;
+    box-shadow: 0 4px 10px #A6B37D;
+    color: #51361ab9;
+    width: 100px ;
+}
+
+#address{
+    font-weight: 200;
+    color:#A6B37D;
+}
+
+#tagline{
+    font-weight: 50;
+    color: #929d6f;
+}
+
+.Education{
+    padding-bottom: 4x;
+    box-shadow: 0 4px 10px #B99470;
+    color: #51361ab9;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.Education img{
+    border-radius: 8%;
+    box-shadow: 0 4px 10px #B99470;
+    display: block;
+    margin-right: 100%;
+    width: 50%;
+}
+
+#honors{
+    display: grid;
+    grid-template-columns: 10em auto 10em;
+}
+.Education dd{
+    font-style:oblique;
+}
+.Education dt{
+    font-weight: 900 ;
+    font-size: large;
+}
+
+.Education li{
+    font-weight: 900 ;
+    font-size: large;
+}
+
+.Education p{
+    font-weight: 600 ;
+    font-size: large;
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+    border: #3c2e20;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .card{
+    background-color: #A6B37D;
+    border-radius: 2%;
+    width: 400px;
+    display: flexbox;
+    justify-content: flex-start;
+    padding-bottom: 2x;
+    box-shadow: 0 4px 10px #B99470;
+    text-align: center;
+  }
+  .container{
+    width: 400px;
+    height: 200px;
+    border-radius: 5px 5px 0 0;
+    text-align: left;
+  }
+
+  .card img{ 
+    border-radius: 5px;
+    width: 400px;
+    max-height: 200px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    font-weight: 800;
+  }
+  .card:hover{
+  background-color: #B99470;
+  padding-bottom: 8x;
+  box-shadow: 0 15px 20px #B99470;
+
+  }
+
+  .card .main-links{
+    color:#3c2e20;
+    padding-bottom: 2x;
+    box-shadow: 0 9px 15px #B99470;
+  }
+  .card .main-links:hover{
+    color:#3c2e20;
+    padding-bottom: 2x;
+    box-shadow: 0 9px 15px #B99470;
+    background-color: #CCD5AE;
+    border-radius: 5px;
+  }
